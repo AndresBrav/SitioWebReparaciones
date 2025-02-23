@@ -1,0 +1,25 @@
+.gridWhatsapp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas iguales */
+    grid-template-rows: 1fr; /* Una fila */
+    place-items: center; /* Centra los elementos horizontal y verticalmente en cada celda */
+    height: 100px; /* Opcional: Define una altura para que el centrado vertical sea visible */
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el logo y el texto */
+}
+
+.whatsapp-button:hover {
+    background-color: #20c058;
+}
