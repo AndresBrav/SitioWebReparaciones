@@ -8,6 +8,18 @@
     color: white;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    /* Ajusta el tamaño según tu logo en pantallas grandes */
+    height: auto;
+    margin-right: 10px;
+}
+
 .company-name {
     font-size: 20px;
     font-weight: bold;
@@ -18,6 +30,12 @@
     list-style: none;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link {
@@ -30,15 +48,14 @@
 
 .nav-link:hover {
     color: #ff0000;
-    /* Rojo al pasar el ratón */
+    /* Rojo al pasar el ratón, como en "Servicios" */
 }
 
 .nav-link.active {
     color: #ff0000;
-    /* Rojo para la opción activa */
+    /* Rojo para la opción activa, como "Servicios" en la imagen */
 }
 
-/* Estilos para el dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -74,4 +91,36 @@
 .dropdown-item:hover {
     background-color: #333;
     /* Un tono más oscuro al pasar el ratón */
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    .logo-img {
+        width: 40px;
+        /* Reduce el tamaño del logo en móviles */
+    }
+
+    .company-name {
+        font-size: 16px;
+        /* Reduce el tamaño del texto del nombre */
+    }
+
+    .nav-menu {
+        gap: 10px;
+        /* Reduce el espacio entre enlaces en móviles */
+        justify-content: center;
+        /* Centra los enlaces en móviles */
+    }
+
+    .nav-link {
+        font-size: 14px;
+        /* Reduce el tamaño de fuente de los enlaces */
+        padding: 5px 8px;
+        /* Reduce el padding para ahorrar espacio */
+    }
+
+    .dropdown-content {
+        min-width: 120px;
+        /* Reduce el ancho del dropdown en móviles */
+    }
 }
