@@ -21,7 +21,8 @@
 }
 
 .company-name {
-    font-size: 20px;
+    font-size: 15px;
+    /* Cambiado a 15px para el nombre de la empresa */
     font-weight: bold;
     color: white;
 }
@@ -41,7 +42,8 @@
 .nav-link {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px; 
+    /* Cambiado a 15px para los enlaces del menú */
     padding: 5px 10px;
     transition: color 0.3s;
 }
@@ -79,17 +81,18 @@
     /* Muestra el dropdown al pasar el ratón */
 }
 
-.dropdown-item {
+.dropdown-item {            /* del menu deplegable */
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
+    /* Cambiado a 13px para los items del dropdown (opcional) */
     transition: background-color 0.3s;
 }
 
 .dropdown-item:hover {
-    background-color: #333;
+    background-color:#ba0202;
     /* Un tono más oscuro al pasar el ratón */
 }
 
@@ -101,8 +104,8 @@
     }
 
     .company-name {
-        font-size: 16px;
-        /* Reduce el tamaño del texto del nombre */
+        font-size: 10px;
+        /* Reduce el tamaño del texto del nombre en móviles */
     }
 
     .nav-menu {
@@ -113,8 +116,8 @@
     }
 
     .nav-link {
-        font-size: 14px;
-        /* Reduce el tamaño de fuente de los enlaces */
+        font-size: 11px;
+        /* Reduce el tamaño de fuente de los enlaces en móviles */
         padding: 5px 8px;
         /* Reduce el padding para ahorrar espacio */
     }

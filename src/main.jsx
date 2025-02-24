@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import Inicio from './Inicio.jsx'
 import Cabecera from './componentes/Cabecera.jsx'
 import './assets/styles/diseño.css'
-import './assets/styles/diseñoCabecera.css'
+// import './assets/styles/diseñoCabecera.css'
 import './assets/styles/diseñoWhatsapp.css'
 import './assets/styles/diseñoNavbar.css'
 

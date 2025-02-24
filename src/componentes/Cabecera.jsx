@@ -15,11 +15,14 @@ const Cabecera = () => {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className="navbar" >
                 <div className="logo">
                     <img src="https://i.imgur.com/h9akjY6.jpeg" alt="Logo Cristian Construcciones" className="logo-img" />
                     <span className="company-name">CRISTIAN CONSTRUCCIONES</span>
                 </div>
+            </nav>
+            <nav className="navbar">
+
                 <ul className="nav-menu">
                     <li><Link to="/" className="nav-link">Inicio</Link></li>
 
